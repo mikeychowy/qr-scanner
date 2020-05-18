@@ -1,3 +1,10 @@
+# My Readme Section
+
+QR Code Scanner forked from [Nimiq's Scanner](https://github.com/nimiq/qr-scanner) transpiled into regular Javascript using Babel.
+I only made this because my team's current project still uses JQuery and for reasons unknown the old trick of importing it doesn't work.
+Alas, rather than converting the old functions one by one to ES6 i'd rather rebuilt and transpile this to regular Javascript so we can <script></script> this library.
+
+# Nimiq's Readme Below
 # QR Scanner
 
 Javascript QR Code Scanner based on [Cosmo Wolfe's javascript port](https://github.com/cozmo/jsqr) of [Google's ZXing library](https://github.com/zxing/zxing).
